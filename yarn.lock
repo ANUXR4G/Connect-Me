@@ -355,6 +355,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@googlemaps/js-api-loader@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@googlemaps/js-api-loader@npm:2.0.2"
+  dependencies:
+    "@types/google.maps": "npm:^3.53.1"
+  checksum: 10c0/1bd8f1e117145de83a7cfca7c05cf4cfb2d9095d507497f8b0e590be94de3a6a27a7a3c80801de6f58d77e5a2ce169a6b6d9c9d0dfc20ea1039d890226318c46
+  languageName: node
+  linkType: hard
+
 "@hookform/resolvers@npm:^5.2.2":
   version: 5.2.2
   resolution: "@hookform/resolvers@npm:5.2.2"
@@ -2256,6 +2265,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/google.maps@npm:^3.53.1":
+  version: 3.58.1
+  resolution: "@types/google.maps@npm:3.58.1"
+  checksum: 10c0/0247c61d2aeb216d04ab9392602ef41d58328c6336ed4e9a4e9e69834002e82c116a34def2bf4ceb31c4292f14899815058da4bb8d803147295c6b47c1162621
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.15":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
@@ -2960,6 +2976,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "connectme@workspace:."
   dependencies:
+    "@googlemaps/js-api-loader": "npm:^2.0.2"
     "@hookform/resolvers": "npm:^5.2.2"
     "@radix-ui/react-accordion": "npm:^1.2.12"
     "@radix-ui/react-alert-dialog": "npm:^1.1.15"
