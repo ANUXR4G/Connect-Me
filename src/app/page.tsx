@@ -188,15 +188,6 @@ export default function Page() {
           </div>
         </div>
       </main>
-
-      <div className="fixed bottom-0 left-0 right-0 bg-snapchat-yellow py-4 px-6 z-50">
-        <div className="flex items-center justify-center gap-4">
-          <span className="text-black font-semibold">2025 Snap Recap is here!</span>
-          <Link href="/download" className="text-black font-bold underline hover:no-underline">
-            Download App
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }
