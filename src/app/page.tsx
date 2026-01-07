@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
-import Navbar from "@/nativecompo/Navbar";
 
 export default function Page() {
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -21,8 +20,6 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
-
       <main className="pt-[140px] pb-20 ">
         <div className="max-w-[1400px] mx-auto px-6">
           <div className="relative">
@@ -36,39 +33,12 @@ export default function Page() {
                     Chat, Snap and video call your friends. Watch Stories and Spotlight, all from your computer.
                   </p>
 
-                  <form className="space-y-4">
-                    <div>
-                      <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-2">
-                        Username or email address
-                      </label>
-                      <input
-                        id="username"
-                        type="text"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-snapchat-blue focus:border-transparent transition-all"
-                      />
-                    </div>
-
-                    <div className="text-center">
-                      <Link href="/phone" className="text-sm text-snapchat-blue hover:text-[#0c94d6] font-medium">
-                        Use phone number instead
-                      </Link>
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="w-full bg-[#0ba5ee] hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
-                    >
-                      Log in
-                    </button>
-                  </form>
-
-                  <p className="mt-6 text-sm text-gray-600">
-                    Looking for the app? Get it{" "}
-                    <Link href="/download" className="text-gray-900 underline font-medium hover:no-underline">
-                      here
-                    </Link>
-                    .
-                  </p>
+                   <button
+                    type="submit"
+                    className="w-full bg-[#0ba5ee] hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
+                  >
+                    Log in
+                  </button>
                 </div>
               </div>
             </section>
@@ -81,31 +51,12 @@ export default function Page() {
                   Chat, Snap and video call your friends. Watch Stories and Spotlight, all from your computer.
                 </p>
 
-                <form className="space-y-4">
-                  <div>
-                    <label htmlFor="username-mobile" className="block text-sm font-medium text-gray-700 mb-2">
-                      Username or email address
-                    </label>
-                    <input
-                      id="username-mobile"
-                      type="text"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-snapchat-blue focus:border-transparent transition-all"
-                    />
-                  </div>
-
-                  <div className="text-center">
-                    <Link href="/phone" className="text-sm text-snapchat-blue hover:text-[#0c94d6] font-medium">
-                      Use phone number instead
-                    </Link>
-                  </div>
-
-                  <button
+                <button
                     type="submit"
                     className="w-full bg-[#0ba5ee] hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
                   >
                     Log in
                   </button>
-                </form>
 
                 <p className="mt-6 text-sm text-gray-600">
                   Looking for the app? Get it{" "}
