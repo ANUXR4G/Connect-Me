@@ -56,7 +56,7 @@ export default function Page() {
 
                     <button
                       type="submit"
-                      className="w-full bg-snapchat-blue hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
+                      className="w-full bg-[#0ba5ee] hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
                     >
                       Log in
                     </button>
@@ -101,7 +101,7 @@ export default function Page() {
 
                   <button
                     type="submit"
-                    className="w-full bg-snapchat-blue hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
+                    className="w-full bg-[#0ba5ee] hover:bg-[#0c94d6] text-white font-semibold py-3 rounded-full transition-all transform hover:scale-[1.02]"
                   >
                     Log in
                   </button>
