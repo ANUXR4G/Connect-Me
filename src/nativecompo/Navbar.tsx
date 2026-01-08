@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div>
-      {/* Snapchat Nav */}
+      {/* JustKnowMe Nav */}
       <nav className="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-40">
         <div className="flex items-center justify-between px-6 py-4">
           <div className="flex items-center gap-6">

@@ -28,7 +28,7 @@ export default function Page() {
               {/* keep same horizontal padding/centering as your container */}
               <div className="max-w-[1400px] mx-auto px-6">
                 <div className="max-w-md">
-                  <h1 className="text-4xl font-bold text-gray-900 mb-4">Log in to Snapchat</h1>
+                  <h1 className="text-4xl font-bold text-gray-900 mb-4">Log in to JustKnowMe</h1>
                   <p className="text-gray-600 mb-8 text-lg">
                     Chat, Snap and video call your friends. Watch Stories and Spotlight, all from your computer.
                   </p>
@@ -46,7 +46,7 @@ export default function Page() {
             {/* LEFT (Mobile): normal flow so it doesn't cover content */}
             <section className="lg:hidden mb-10">
               <div className="max-w-md">
-                <h1 className="text-4xl font-bold text-gray-900 mb-4">Log in to Snapchat</h1>
+                <h1 className="text-4xl font-bold text-gray-900 mb-4">Log in to JustKnowMe</h1>
                 <p className="text-gray-600 mb-8 text-lg">
                   Chat, Snap and video call your friends. Watch Stories and Spotlight, all from your computer.
                 </p>
